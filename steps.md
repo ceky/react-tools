@@ -1,18 +1,23 @@
-Manual Webpack Configuration For React App - Basic Setup
+# Commands
 
-https://www.youtube.com/watch?v=erE0E6P-F38
+`npm run start`
 
-npm init -y
+# Manual Webpack Configuration For React App - Basic Setup
 
-npm i webpack webpack-dev-server html-webpack-plugin --save-dev
+## [Initial setup video](https://www.youtube.com/watch?v=erE0E6P-F38) 
 
-$ npm i webpack-cli
+`npm init -y`
 
-npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+`npm i webpack webpack-dev-server` `html-webpack-plugin --save-dev`
 
-npm i react react-dom
+`npm i webpack-cli`
 
-npm run start
+`npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev`
+
+`npm i react react-dom`
 
 ---
 
+# Add style-loader css-loader file-loader
+
+`npm install style-loader css-loader file-loader`
